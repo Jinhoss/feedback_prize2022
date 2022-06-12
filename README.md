@@ -83,3 +83,23 @@ no-bn
 focal loss
 ```
 
+
+
+feedback v4 focal loss, no bn
+
+```
+model1 saved
+1   Average valid loss: 0.7200
+  Accuracy: 0.6770
+100%|██████████| 3676/3676 [41:25<00:00,  1.48it/s, Epoch=1, LR=2.81e-6, Train_Loss=0.232]
+100%|██████████| 459/459 [03:18<00:00,  2.31it/s, Epoch=1, LR=2.81e-6, Valid_Loss=0.715]
+model1 saved
+2   Average valid loss: 0.7146
+  Accuracy: 0.6750
+100%|██████████| 3676/3676 [41:24<00:00,  1.48it/s, Epoch=2, LR=9.93e-6, Train_Loss=0.196]
+100%|██████████| 459/459 [03:17<00:00,  2.32it/s, Epoch=2, LR=9.93e-6, Valid_Loss=0.69] 
+model1 saved
+3   Average valid loss: 0.6899
+  Accuracy: 0.6936
+```
+
