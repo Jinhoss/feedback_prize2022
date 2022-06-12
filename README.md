@@ -83,10 +83,6 @@ no-bn
 focal loss
 ```
 
-
-
-feedback v4 focal loss, no bn
-
 ```
 model1 saved
 1   Average valid loss: 0.7200
@@ -102,4 +98,27 @@ model1 saved
 3   Average valid loss: 0.6899
   Accuracy: 0.6936
 ```
+
+
+
+feedback v5 focal loss, no bn
+
+fold1은 epoch 3으로 학습된 상태
+
+```
+pretrained model: deberta-v3-base
+max_len = 512
+data : d_type, d_content, essay
+scheduler: cosineAnnealingLR(T_max=500, eta_min=1e-6)
+lr = 1e-5
+epochs = 5
+dropout = 0.3
+no-bn
+5fold
+focal loss
+```
+
+
+
+
 
