@@ -1,5 +1,7 @@
 # feedback_prize2022
 
+__[Competition Information](https://www.kaggle.com/competitions/feedback-prize-effectiveness)__
+
 
 
 | model         | dropout | lr   | optimizer | scheduler         | loss  |
