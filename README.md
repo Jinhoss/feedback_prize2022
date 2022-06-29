@@ -1,8 +1,4 @@
-# Kaggle_feedback_prize
-
-
-
-
+# feedback_prize2022
 
 
 
@@ -14,3 +10,6 @@
 
 
 
+__Graph__
+
+![graph](README.assets/graph.PNG)
